@@ -1,0 +1,12 @@
+Welcome to BunsenLabs Live!
+==========================
+
+This is a place holder for some sort of message for live system users.
+
+What to check before installing (mostly hardware?)
+
+How to install.
+
+Other uses of a live session.
+
+etc?
