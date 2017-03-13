@@ -37,6 +37,14 @@
     </menu>
 
     <menu id="root-menu" label="Openbox 3">
+        <item label="Welcome to BunsenLabs Live!">
+            <action name="Execute">
+                <command>
+                    bash -c &apos;yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title=&quot;Welcome to BunsenLabs Live!&quot; --text=&quot;$(&lt;/usr/share/bunsen/docs/welcome-live.txt)&quot;&apos;
+                </command>
+            </action>
+        </item>
+        <separator/>
         <item label="Run Program">
             <action name="Execute">
                 <command>

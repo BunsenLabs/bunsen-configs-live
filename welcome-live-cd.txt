@@ -16,6 +16,12 @@ You already have sudo permissions.
 To install this operating system to a hard drive, reboot and choose 'Graphical Install' (or 'Install')
 from the boot menu instead of 'Live'.
 
+NOTE: In order to save space, this 'CD' install contains a limited subset of
+the full BunsenLabs package collection. As a result, some menu items will not work.
+After installation of the system, you can use apt-get or synaptic to install the packages you need,
+or if hard disk space is no problem, installing the package 'bunsen-meta-all' will bring in everything.
+Also, the apt indexes have been omitted, so you need to restore them by running
+'sudo apt-get update' once, before using apt.
 
 
 					Thank you for trying <b>BunsenLabs Linux</b>!

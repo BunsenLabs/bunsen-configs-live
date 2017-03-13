@@ -1,5 +1,13 @@
-bunsen-configs-live (8.0-1) UNRELEASED; urgency=medium
+bunsen-configs-live (8.0.2-1) bunsen-hydrogen; urgency=medium
+
+  * welcome-live-cd.txt: Add CD-specific notes.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 13 Mar 2017 15:39:45 +0900
+
+bunsen-configs-live (8.0.1-1) bunsen-hydrogen; urgency=medium
 
   * Initial release.
+  * Improve welcome message and yad formatting.
+  * Add source for bunsen-configs-live-cd package. 
 
- -- John Crawley <john@bunsenlabs.org>  Thu, 23 Feb 2017 17:03:53 +0900
+ -- John Crawley <john@bunsenlabs.org>  Sat, 11 Mar 2017 17:29:54 +0900

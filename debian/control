@@ -17,3 +17,13 @@ Description: Modified config files for a live session of BunsenLabs Linux
  This package changes the configuration of a BunsenLabs live session.
  It should not be installed in a normal system.
  
+Package: bunsen-configs-live-cd
+Architecture: all
+Depends: ${misc:Depends}, bunsen-configs, live-config
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Modified config files for a live session of BunsenLabs Linux
+ This package changes the configuration of a BunsenLabs live session of
+ the CD-sized iso.
+ It should not be installed in a normal system.
+ 

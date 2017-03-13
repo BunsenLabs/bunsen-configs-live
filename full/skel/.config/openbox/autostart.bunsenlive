@@ -80,7 +80,7 @@ fdpowermon &
 clipit &
 
 # Message for live system users
-(sleep 5; yad --button="OK":0 --center --window-icon=distributor-logo-bunsenlabs --text-info --title="Welcome to BunsenLabs Live!" --filename="/usr/share/bunsen/docs/welcome-live.txt" --width=900 --height=700 --fontname=Monospace) &
+(sleep 5; bash -c 'yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live.txt)"' ) &
 
 ## bl-fortune - have the system come up with a little adage (not yet enabled)
 #(sleep 120; bl-fortune) &
