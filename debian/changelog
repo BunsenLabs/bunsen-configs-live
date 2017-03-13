@@ -1,3 +1,9 @@
+bunsen-configs-live (8.0.3-1) bunsen-hydrogen; urgency=medium
+
+  * Correct path to welcome-live-cd.txt
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 13 Mar 2017 17:01:55 +0900
+
 bunsen-configs-live (8.0.2-1) bunsen-hydrogen; urgency=medium
 
   * welcome-live-cd.txt: Add CD-specific notes.
