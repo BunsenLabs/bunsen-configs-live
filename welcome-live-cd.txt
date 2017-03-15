@@ -1,7 +1,7 @@
 <big><b>Welcome to BunsenLabs Live!</b></big>
 
-This 'Live' operating system allows you to test BunsenLabs without making any changes to your
-computer's hard drive. Among other things, it can be used to check hardware compatibility
+This CD-sized 'Live' operating system allows you to test BunsenLabs without making any changes
+to your computer's hard drive. Among other things, it can be used to check hardware compatibility
 (your network connection, monitor, keyboard, etc...), to perform system recovery or to work
 anonymously on a public computer.
 
@@ -16,12 +16,16 @@ You already have sudo permissions.
 To install this operating system to a hard drive, reboot and choose 'Graphical Install' (or 'Install')
 from the boot menu instead of 'Live'.
 
-NOTE: In order to save space, this 'CD' install contains a limited subset of
-the full BunsenLabs package collection. As a result, some menu items will not work.
-After installation of the system, you can use apt-get or synaptic to install the packages you need,
-or if hard disk space is no problem, installing the package 'bunsen-meta-all' will bring in everything.
-Also, the apt indexes have been omitted, so you need to restore them by running
-'sudo apt-get update' once, before using apt.
+To make this ISO image fit onto a CD, many default applications included in the "standard" images
+were left out, resulting in Main Menu entries that do nothing. All of those packages can be installed
+by running two commands in a terminal (please make a note of them!)...
+
+sudo apt-get update
+sudo apt-get install bunsen-meta-all
+
+If instead you pick-and-choose which applications to install, you can edit
+the menu to remove "dead" entries. See "Main Menu>Help & Resources>Bunsen Help Files>How to Edit Menu"
+for more information.
 
 
 					Thank you for trying <b>BunsenLabs Linux</b>!
