@@ -1,3 +1,10 @@
+bunsen-configs-live (8.0.5-1) bunsen-hydrogen; urgency=medium
+
+  * welcome-live-cd.txt: escape ampersand.
+  * menu: add 'hardinfo' under 'accessories'.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 23 Mar 2017 13:54:26 +0900
+
 bunsen-configs-live (8.0.4-1) bunsen-hydrogen; urgency=medium
 
   * welcome-live-cd.txt: Improve CD-specific notes.
