@@ -1,3 +1,9 @@
+bunsen-configs-live (8.0.6-1) bunsen-hydrogen; urgency=low
+
+  * welcome-live-cd.txt: adjust linebreaks.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 27 Mar 2017 17:10:13 +0900
+
 bunsen-configs-live (8.0.5-1) bunsen-hydrogen; urgency=medium
 
   * welcome-live-cd.txt: escape ampersand.
