@@ -23,9 +23,8 @@ by running two commands in a terminal (please make a note of them!)...
 sudo apt-get update
 sudo apt-get install bunsen-meta-all
 
-If instead you pick-and-choose which applications to install, you can edit
-the menu to remove "dead" entries. See "Main Menu>Help &amp; Resources>Bunsen Help Files>How to Edit Menu"
-for more information.
+If instead you pick-and-choose which applications to install, you can edit the menu to remove "dead" entries.
+See "Main Menu>Help &amp; Resources>Bunsen Help Files>How to Edit Menu" for more information.
 
 
 					Thank you for trying <b>BunsenLabs Linux</b>!
