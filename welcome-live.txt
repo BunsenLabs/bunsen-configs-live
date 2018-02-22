@@ -6,9 +6,9 @@ computer's hard drive. Among other things, it can be used to check hardware comp
 anonymously on a public computer.
 
 
-Keyboard shortcuts for some common applications are listed on the desktop ([S] means Super,
-also called the Windows key). Right-click the desktop to access the system Main Menu, or use
-the keyboard shortcut shown.
+Keyboard shortcuts for some common applications are listed on the desktop
+('Super' is also called the Windows key).
+Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
 
 Your username is 'user' and your password is 'live'.
 You already have sudo permissions.

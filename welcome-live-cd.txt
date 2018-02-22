@@ -6,9 +6,9 @@ to your computer's hard drive. Among other things, it can be used to check hardw
 anonymously on a public computer.
 
 
-Keyboard shortcuts for some common applications are listed on the desktop ([S] means Super,
-also called the Windows key). Right-click the desktop to access the system Main Menu, or use
-the keyboard shortcut shown.
+Keyboard shortcuts for some common applications are listed on the desktop
+('Super' is also called the Windows key).
+Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
 
 Your username is 'user' and your password is 'live'.
 You already have sudo permissions.
@@ -17,7 +17,7 @@ To install this operating system to a hard drive, reboot and choose 'Graphical I
 from the boot menu instead of 'Live'.
 
 To make this ISO image fit onto a CD, many default applications included in the "standard" images
-were left out, resulting in Main Menu entries that do nothing. All of those packages can be installed
+were left out, resulting in some Main Menu entries that do nothing. All of those packages can be installed
 by running two commands in a terminal (please make a note of them!)...
 
 sudo apt-get update
