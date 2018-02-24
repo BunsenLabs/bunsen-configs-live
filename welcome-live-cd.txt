@@ -10,7 +10,7 @@ Keyboard shortcuts for some common applications are listed on the desktop
 ('Super' is also called the Windows key).
 Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
 
-Your username is 'user' and your password is 'live'.
+Your username is '<b>user</b>' and your password is '<b>live</b>'.
 You already have sudo permissions.
 
 To install this operating system to a hard drive, reboot and choose 'Graphical Install' (or 'Install')
