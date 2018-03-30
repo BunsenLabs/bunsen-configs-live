@@ -13,7 +13,7 @@ Right-click the desktop to access the system Main Menu, or use the keyboard shor
 Your username is '<b>user</b>' and your password is '<b>live</b>'.
 You already have sudo permissions.
 
-To install this operating system to a hard drive, reboot and choose 'Graphical Install' (or 'Install')
+To install this operating system to a hard drive, reboot and choose 'Install' (or 'Text Install')
 from the boot menu instead of 'Live'.
 
 

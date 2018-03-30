@@ -1,3 +1,9 @@
+bunsen-configs-live (9.0.2-1) helium; urgency=medium
+
+  * Adjust welcome messages to match Grub install menu.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 25 Mar 2018 16:59:13 +0900
+
 bunsen-configs-live (9.0.1-1) helium; urgency=low
 
   * Use bold type for username and password in welcome messages.
