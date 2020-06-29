@@ -9,7 +9,7 @@ anonymously on a public computer.
 Keyboard shortcuts for some common applications are listed on the desktop
 ('Super' is also called the Windows key).
 You can change your keyboard layout by running this command in a terminal:
-setxkbmap xx
+<b>setxkbmap xx</b>
 where xx is the country code for your keyboard layout.
 (See /usr/share/X11/xkb/rules/evdev.lst for a full list.)
 

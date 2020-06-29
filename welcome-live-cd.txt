@@ -9,7 +9,7 @@ anonymously on a public computer.
 Keyboard shortcuts for some common applications are listed on the desktop
 ('Super' is also called the Windows key).
 You can change your keyboard layout by running this command in a terminal:
-setxkbmap xx
+<b>setxkbmap xx</b>
 where xx is the country code for your keyboard layout.
 (See /usr/share/X11/xkb/rules/evdev.lst for a full list.)
 
@@ -27,11 +27,17 @@ were left out, resulting in some Main Menu entries that do nothing, or less "use
 All of those packages can be installed by running two commands in a terminal
 (please make a note of them!)...
 
-sudo apt-get update
-sudo apt-get install bunsen-meta-all
+sudo apt update
+sudo apt install bunsen-meta-all
 
 If instead you pick-and-choose which applications to install, you can edit the menu to remove "dead" entries.
 See "Main Menu>Help &amp; Resources>Bunsen Help Files>How to Edit Menu" for more information.
 
+Note also that because the apt index has been omitted, installing any packages requires
+that you first run:
+
+sudo apt update
+
+That will regenerate the apt index.
 
 					Thank you for trying <b>BunsenLabs Linux</b>!
