@@ -8,7 +8,13 @@ anonymously on a public computer.
 
 Keyboard shortcuts for some common applications are listed on the desktop
 ('Super' is also called the Windows key).
+You can change your keyboard layout by running this command in a terminal:
+setxkbmap xx
+where xx is the country code for your keyboard layout.
+(See /usr/share/X11/xkb/rules/evdev.lst for a full list.)
+
 Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
+(You can change keyboard shortcuts from the Menu "Display Keybinds" submenu.)
 
 Your username is '<b>user</b>' and your password is '<b>live</b>'.
 You already have sudo permissions.
@@ -17,8 +23,9 @@ To install this operating system to a hard drive, reboot and choose 'Install' (o
 from the boot menu instead of 'Live'.
 
 To make this ISO image fit onto a CD, many default applications included in the "standard" images
-were left out, resulting in some Main Menu entries that do nothing. All of those packages can be installed
-by running two commands in a terminal (please make a note of them!)...
+were left out, resulting in some Main Menu entries that do nothing, or less "user friendly" substitutions.
+All of those packages can be installed by running two commands in a terminal
+(please make a note of them!)...
 
 sudo apt-get update
 sudo apt-get install bunsen-meta-all
