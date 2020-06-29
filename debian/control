@@ -4,13 +4,13 @@ Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
 Build-Depends: debhelper (>= 10), config-package-dev (>= 5.1)
 Standards-Version: 4.3.0
-Homepage: https://github.com/BunsenLabs/bunsen-configs-live
-Vcs-Git: https://github.com/BunsenLabs/bunsen-configs-live.git
-Vcs-Browser: https://github.com/BunsenLabs/bunsen-configs-live
+Homepage: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live
+Vcs-Git: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live.git
+Vcs-Browser: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live
 
 Package: bunsen-configs-live
 Architecture: all
-Depends: ${misc:Depends}, bunsen-configs, live-config
+Depends: ${misc:Depends}, bunsen-configs | bunsen-configs-lite, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Modified config files for a live session of BunsenLabs Linux
@@ -19,7 +19,7 @@ Description: Modified config files for a live session of BunsenLabs Linux
 
 Package: bunsen-configs-live-cd
 Architecture: all
-Depends: ${misc:Depends}, bunsen-configs, live-config
+Depends: ${misc:Depends}, bunsen-configs | bunsen-configs-lite, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Modified config files for a live session of BunsenLabs Linux
