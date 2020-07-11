@@ -87,7 +87,7 @@ openbox)
 
     ## Compton
     ## NOTE: composition must be started before tint2
-    # disable compton for CD
+    # disabled for CD system
     #bl-compositor --start
 
     ## Start the tint2 session (the default tint2 will run if no sessions have been set)
