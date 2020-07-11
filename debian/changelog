@@ -1,3 +1,11 @@
+bunsen-configs-live (10.4.3-1) lithium; urgency=medium
+
+  * CD version depends on bunsen-configs-lite 
+    and standard version on bunsen-configs.
+  * Add "Reload GTK" to menu (more useful in future).
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 11 Jul 2020 18:09:17 +0900
+
 bunsen-configs-live (10.4.2-1) lithium; urgency=medium
 
   * Allow alternative dependency on bunsen-configs-lite.
