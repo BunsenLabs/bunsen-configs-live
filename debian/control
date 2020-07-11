@@ -10,7 +10,7 @@ Vcs-Browser: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live
 
 Package: bunsen-configs-live
 Architecture: all
-Depends: ${misc:Depends}, bunsen-configs | bunsen-configs-lite, live-config
+Depends: ${misc:Depends}, bunsen-configs, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Modified config files for a live session of BunsenLabs Linux
@@ -19,7 +19,7 @@ Description: Modified config files for a live session of BunsenLabs Linux
 
 Package: bunsen-configs-live-cd
 Architecture: all
-Depends: ${misc:Depends}, bunsen-configs | bunsen-configs-lite, live-config
+Depends: ${misc:Depends}, bunsen-configs-lite, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Modified config files for a live session of BunsenLabs Linux
