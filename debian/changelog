@@ -1,3 +1,10 @@
+bunsen-configs-live (11.0-1) beryllium; urgency=medium
+
+  * Migrate to Beryllium.
+  * Use debhelper 12 and standards 4.5.1.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 15 Feb 2022 16:29:24 +0900
+
 bunsen-configs-live (10.4.4-1) lithium; urgency=medium
 
   * Update with bunsen-configs 10.8-1
