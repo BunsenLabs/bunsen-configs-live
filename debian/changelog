@@ -1,3 +1,12 @@
+bunsen-configs-live (11.1-1) beryllium; urgency=medium
+
+  * Add bunsen-configs-live-lite package for older i386 systems
+     but when there is no iso size restriction. 
+     Like bunsen-configs-live-cd, it depends on bunsen-configs-lite.
+     ( There is no change to bunsen-configs-live. )
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 09 Jul 2022 18:04:05 +0900
+
 bunsen-configs-live (11.0.2-1) beryllium; urgency=medium
 
   * jgmenu: tweak screenshot and system info items.
