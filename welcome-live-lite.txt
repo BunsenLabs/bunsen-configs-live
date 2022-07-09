@@ -1,0 +1,37 @@
+<big><b>Welcome to BunsenLabs Live!</b></big>
+
+This 'Live' operating system allows you to test BunsenLabs without making any changes to your
+computer's hard drive. Among other things, it can be used to check hardware compatibility
+(your network connection, monitor, keyboard, etc...), to perform system recovery or to work
+anonymously on a public computer.
+
+
+Keyboard shortcuts for some common applications are listed on the desktop
+('Super' is also called the Windows key).
+You can change your keyboard layout by running this command in a terminal:
+<b>setxkbmap xx</b>
+where xx is the country code for your keyboard layout.
+(See /usr/share/X11/xkb/rules/evdev.lst for a full list.)
+
+Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
+(You can change keyboard shortcuts from the Menu "Display Keybinds" submenu.)
+
+Your username is '<b>user</b>' and your password is '<b>live</b>'.
+You already have sudo permissions.
+
+To install this operating system to a hard drive, reboot and choose 'Install' (or 'Text Install')
+from the boot menu instead of 'Live'.
+
+To make this a system more suitable for older 32-bit computers, some packages included in the "standard" image
+were replaced by lighter ones that use fewer system resources.
+All the default packages can be installed by running two commands in a terminal
+(please make a note of them!)...
+
+sudo apt update
+sudo apt install --no-install-recommends bunsen-meta-all
+
+If instead you pick-and-choose which applications to install, you might want to edit the menu to remove "dead" entries.
+See "Main Menu>Help &amp; Resources>Bunsen Help Files>How to Edit Menu" for more information.
+
+
+					Thank you for trying <b>BunsenLabs Linux</b>!

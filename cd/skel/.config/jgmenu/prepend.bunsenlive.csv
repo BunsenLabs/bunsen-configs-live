@@ -10,7 +10,7 @@
 @search,,24,3,150,20,2,left,top,auto,#000000 0,Type to Search
 
 ^sep()
-Welcome to BunsenLabs Live!,bash -c 'yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live-lite.txt)"'
+Welcome to BunsenLabs Live!,bash -c 'yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live-cd.txt)"'
 ^sep()
 Run Program,gmrun
 ^sep()

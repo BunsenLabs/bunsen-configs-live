@@ -1,0 +1,10 @@
+bunsen-configs-live-cd
+======================
+
+This package modifies the configuration of a BunsenLabs system
+for use in a live environment, from the lite i386 iso.
+
+Existing config files are dpkg-displaced, so that 
+removal of this package will restore a system to its previous state.
+
+NOTE: do not install this in a normal, non-live system.

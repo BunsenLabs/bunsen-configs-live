@@ -140,7 +140,7 @@ then
 fi
 
 # Message for live system users
-(sleep 5; bash -c 'yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live-lite.txt)"' ) &
+(sleep 5; bash -c 'yad --button=gtk-ok --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live-cd.txt)"' ) &
 
 ## bl-fortune - have the system come up with a little adage
 ## These quotes are from the #! and BL forums.
