@@ -13,7 +13,7 @@ bunsen-configs-live (12.0-1) boron; urgency=medium
 bunsen-configs-live (11.1-1) beryllium; urgency=medium
 
   * Add bunsen-configs-live-lite package for older i386 systems
-     but when there is no iso size restriction. 
+     but when there is no iso size restriction.
      Like bunsen-configs-live-cd, it depends on bunsen-configs-lite.
      ( There is no change to bunsen-configs-live. )
 
@@ -46,7 +46,7 @@ bunsen-configs-live (10.4.4-1) lithium; urgency=medium
 
 bunsen-configs-live (10.4.3-1) lithium; urgency=medium
 
-  * CD version depends on bunsen-configs-lite 
+  * CD version depends on bunsen-configs-lite
     and standard version on bunsen-configs.
   * Add "Reload GTK" to menu (more useful in future).
 
@@ -160,6 +160,6 @@ bunsen-configs-live (8.0.1-1) bunsen-hydrogen; urgency=medium
 
   * Initial release.
   * Improve welcome message and yad formatting.
-  * Add source for bunsen-configs-live-cd package. 
+  * Add source for bunsen-configs-live-cd package.
 
  -- John Crawley <john@bunsenlabs.org>  Sat, 11 Mar 2017 17:29:54 +0900
