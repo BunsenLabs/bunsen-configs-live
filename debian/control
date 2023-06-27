@@ -2,11 +2,12 @@ Source: bunsen-configs-live
 Section: misc
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Build-Depends: debhelper-compat (= 12), config-package-dev (>= 5.1)
-Standards-Version: 4.5.1
-Homepage: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live
-Vcs-Git: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live.git
-Vcs-Browser: https://kernel.bunsenlabs.org/johnraff/bunsen-configs-live
+Build-Depends: debhelper-compat (= 13), config-package-dev (>= 5.1)
+Rules-Requires-Root: no
+Standards-Version: 4.6.1.0
+Homepage: https://github.com/BunsenLabs/bunsen-configs-live
+Vcs-Git: https://github.com/BunsenLabs/bunsen-configs-live.git
+Vcs-Browser: https://github.com/BunsenLabs/bunsen-configs-live
 
 Package: bunsen-configs-live
 Architecture: all
