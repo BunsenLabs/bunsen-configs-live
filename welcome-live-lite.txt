@@ -23,7 +23,7 @@ To install this operating system to a hard drive, reboot and choose 'Install' (o
 from the boot menu instead of 'Live'.
 
 To make this a system more suitable for older 32-bit computers, some packages included in the "standard" image
-were replaced by lighter ones that use fewer system resources.
+were removed or replaced by lighter ones that use fewer system resources.
 All the default packages can be installed by running two commands in a terminal
 (please make a note of them!)...
 
