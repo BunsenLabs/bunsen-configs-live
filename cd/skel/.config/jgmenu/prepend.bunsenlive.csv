@@ -46,6 +46,7 @@ BLOB Themes Manager,bl-obthemes
 SSH,^pipe(jgmenu_run ob --cmd="bl-sshconfig-pipemenu" --tag="bl-sshconfig-pipemenu")
 Remote Desktop,^pipe(jgmenu_run ob --cmd="bl-remote-desktop-pipemenu" --tag="bl-remote-desktop-pipemenu")
 #App Finder,xfce4-appfinder
+#Catfish File Finder,catfish
 # These two utilities are available if you uncomment the line.
 # Pipe menu to install and use Dropbox:
 #Dropbox,^pipe(jgmenu_run ob --cmd="bl-dropbox-pipemenu" --tag="bl-dropbox-pipemenu")
@@ -131,14 +132,15 @@ man xrandr,x-terminal-emulator -T 'man xrandr' -e man xrandr
 System,^tag(bl-system)
 Back,^back()
 Quick System Info,x-terminal-emulator -T 'inxi system info  (Q to close)' -e bash -c "inxi -F -d -J -l -o -p -r -u -x -z -c 2 | less -R"
+#Hardinfo GUI system profiler,hardinfo
 ^sep()
 Printers,^pipe(jgmenu_run ob --cmd="bl-printing-pipemenu" --tag="bl-printing-pipemenu"),printer
 Task Manager (htop),x-terminal-emulator -T 'htop task manager' -e htop,htop
 Install Favourite Packages,^pipe(bl-install-pipemenu)
-Synaptic Package Manager,pkexec synaptic,synaptic
-Login Settings,pkexec bl-text-editor /etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm.conf,lightdm-settings
+Synaptic Package Manager,sh -c 'pkexec synaptic',synaptic
+Login Settings,sh -c 'pkexec bl-text-editor /etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm.conf',lightdm-settings
 Login Interface,lightdm-gtk-greeter-settings-pkexec,lightdm-settings
-GParted Partition Manager,pkexec gparted,gparted
+GParted Partition Manager,sh -c 'pkexec gparted',gparted
 Set Default Browser,"""x-terminal-emulator -T 'Select Default Browser' -e sh -c 'sudo update-alternatives --config x-www-browser; sleep 5'""",web-browser
 Edit Debian Alternatives,galternatives,galternatives
 ^sep()
