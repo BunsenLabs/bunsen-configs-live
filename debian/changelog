@@ -1,3 +1,9 @@
+bunsen-configs-live (13.2-1) carbon; urgency=medium
+
+  * Add package bunsen-configs-live-base
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 16 Sep 2025 15:58:59 +0900
+
 bunsen-configs-live (13.1-1) carbon; urgency=medium
 
   * Update menu and autostart to match bunsen-configs 13.3-1
