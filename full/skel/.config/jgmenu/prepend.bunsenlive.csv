@@ -104,7 +104,7 @@ Back,^back()
 Edit Menu Content,bl-text-editor ~/.config/jgmenu/prepend.csv
 Edit Menu Settings,bl-text-editor ~/.config/jgmenu/jgmenurc
 ^sep()
-Sync theme with OpenBox,jgmenu_run init --apply-obtheme
+Sync theme with OpenBox,JGMENU_RCXML=~/.config/bunsen/openbox/rc.xml jgmenu_run init --apply-obtheme
 #Sync theme with GTK3,jgmenu_run init --apply-gtktheme
 ^sep(Help)
 man page,x-terminal-emulator -T 'man jgmenu' -e man jgmenu
@@ -170,4 +170,3 @@ Edit Debian Alternatives,galternatives,galternatives
 About Bunsen Alternatives,yad --button="OK":0 --center --window-icon=distributor-logo-bunsenlabs --text-info --title="About Bunsen Alternatives" --filename="/usr/share/bunsen/docs/helpfiles/helpfile-bl-alternatives.txt" --width=900 --height=700 --fontname=Monospace,distributor-logo-bunsenlabs
 
 ^tag(apps)
-
