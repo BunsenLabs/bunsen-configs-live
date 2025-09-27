@@ -1,4 +1,4 @@
-bunsen-configs-live (13.2.1-1) boron; urgency=medium
+bunsen-configs-live (13.2.1-1) carbon; urgency=medium
 
   * jgmenu: fix "Sync theme with OpenBox" entry for "full" and "lite"
 
