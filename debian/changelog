@@ -1,3 +1,9 @@
+bunsen-configs-live (13.2.3-1) carbon; urgency=medium
+
+  * Update autostart and prepend.csv for recent changes.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 26 Dec 2025 13:16:40 +0900
+
 bunsen-configs-live (13.2.2-1) carbon; urgency=medium
 
   * [sleekmason] Rewrite live messages for smaller popup window.
