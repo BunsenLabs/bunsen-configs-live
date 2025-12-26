@@ -67,18 +67,16 @@ xfce4-panel,^checkout(bl-xfce4panelConfig),xfce4-panel
 Keybinds,^checkout(bl-xbindkeysConfig),preferences-desktop-keyboard
 Compositor,^pipe(jgmenu_run ob --cmd="bl-compositor" --tag="bl-compositor"),picom
 Conky,^pipe(jgmenu_run ob --cmd="bl-conky-pipemenu" --tag="bl-conky-pipemenu"),conky-manager
-# bl-obthemes temporarily disabled pending checking for Carbon
-#BLOB Themes Manager,bl-obthemes,distributor-logo-bunsenlabs
-Appearance,sh -c 'lxappearance; bl-reload-gtk23',preferences-desktop-theme
+BLOB Themes Manager,bl-obthemes,distributor-logo-bunsenlabs
+Appearance,sh -c 'nwg-look; bl-reload-gtk23',preferences-desktop-theme
 Reload GTK,bl-reload-gtk23,preferences-desktop-theme
 Font configuration,bl-text-editor ~/.config/fontconfig/fonts.conf,preferences-desktop-font
 Wallpaper,xwwall,preferences-desktop-wallpaper
-#Wallpaper (nitrogen),nitrogen,preferences-desktop-wallpaper
 Notifications,xfce4-notifyd-config,org.xfce.notification
 Power Management,xfce4-power-manager-settings,xfce4-power-manager-settings
 dmenu,^checkout(bl-dmenuconfig),applications-development
 gmrun,^checkout(bl-gmrunconfig),gmrun
-Display,^checkout(bl-DisplaySettings),video-display
+Display settings,^checkout(bl-DisplaySettings),video-display
 Network Connections,nm-connection-editor,preferences-system-network
 
 ^tag(bl-blConfig)
@@ -145,7 +143,8 @@ man page,x-terminal-emulator -T 'man gmrun' -e man gmrun
 
 ^tag(bl-DisplaySettings)
 Back,^back()
-ARandR Screen Layout Editor,arandr
+#ARandR Screen Layout Editor,arandr
+Lxrandr Display Settings Editor,lxrandr.wrapper
 ^sep(Help)
 How To Set Screen Resolution,x-www-browser "https://forums.bunsenlabs.org/viewtopic.php?pid=117065#p117065",help-contents
 man xrandr,x-terminal-emulator -T 'man xrandr' -e man xrandr
