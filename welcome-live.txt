@@ -1,5 +1,8 @@
                         <big><b>Welcome to BunsenLabs Live!</b></big>
 
+BunsenLabs Carbon Release Notes here:
+ https://forums.bunsenlabs.org/viewtopic.php?id=9675
+
 This 'Live' operating system lets you test BunsenLabs without needing
 to make changes to your computer's hard drive.
 
