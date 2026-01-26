@@ -1,3 +1,9 @@
+bunsen-configs-live (13.3-1) carbon; urgency=medium
+
+  * Welcome popups: add link to BunsenLabs Carbon Release Notes.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 26 Jan 2026 16:49:08 +0900
+
 bunsen-configs-live (13.2.3-1) carbon; urgency=medium
 
   * Update autostart and prepend.csv for recent changes.
