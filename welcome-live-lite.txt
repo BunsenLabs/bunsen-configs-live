@@ -1,8 +1,5 @@
                         <big><b>Welcome to BunsenLabs Live!</b></big>
 
-BunsenLabs Carbon Release Notes here:
- https://forums.bunsenlabs.org/viewtopic.php?id=9675
-
 This 'Live' operating system lets you test BunsenLabs without needing
 to make changes to your computer's hard drive.
 
@@ -30,5 +27,9 @@ The default packages can be installed by running two commands in a terminal:
 
 <b>sudo apt update</b>
 <b>sudo apt install --no-install-recommends bunsen-meta-all</b>
+
+NOTE any desktop instability might be due to the current compositor Picom
+needing 3D acceleration. Try clicking "Stop Compositor"
+and check the Release Notes for more information.
 
                                 Thank you for trying <b>BunsenLabs Linux</b>!
