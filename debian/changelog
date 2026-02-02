@@ -1,3 +1,10 @@
+bunsen-configs-live (13.4-1) carbon; urgency=medium
+
+  * Welcome popups: remove non-clickable link, add button to open in browser
+    - also add button to stop compositor.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 02 Feb 2026 15:53:10 +0900
+
 bunsen-configs-live (13.3-1) carbon; urgency=medium
 
   * Welcome popups: add link to BunsenLabs Carbon Release Notes.
