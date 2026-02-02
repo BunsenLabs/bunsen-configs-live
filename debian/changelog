@@ -46,7 +46,7 @@ bunsen-configs-live (13.0-1) carbon; urgency=medium
 
   * Migrate for Debian Trixie:
     - debian/control: Bump Standards-Version to 4.6.2 - no changes required.
-    - debian/copyright: Update year. 
+    - debian/copyright: Update year.
 
  -- John Crawley <john@bunsenlabs.org>  Wed, 19 Jun 2024 16:45:28 +0900
 

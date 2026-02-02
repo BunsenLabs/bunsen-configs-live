@@ -23,7 +23,7 @@ Architecture: all
 Depends: ${misc:Depends}, bunsen-configs-lite, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Modified config files for a live session of BunsenLabs Linux
+Description: Modified config files for a "lite" live session of BunsenLabs Linux
  This package changes the configuration of a BunsenLabs live session of
  a possible future "lite" iso.
  It should not be installed in a normal system.
@@ -33,7 +33,7 @@ Architecture: all
 Depends: ${misc:Depends}, bunsen-configs-base, live-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Modified config files for a live session of BunsenLabs Linux
+Description: Modified config files for a "base" live session of BunsenLabs Linux
  This package changes the configuration of a BunsenLabs live session of
  a possible future "base" iso.
  It should not be installed in a normal system.
