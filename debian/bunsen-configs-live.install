@@ -1,2 +1,3 @@
 full/skel usr/share/bunsen
 welcome-live.txt usr/share/bunsen/docs
+bin usr

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# utility to save code duplication in bunsen-configs-live{,-lite,-base}
+
+# UPDATE THIS URL WHEN A NEW RELEASE IS MADE
+releasenotes_url='https://forums.bunsenlabs.org/viewtopic.php?id=9675'
+
+welcomemsg_path='/usr/share/bunsen/docs'
+
+case $1 in
+--lite)
+    ext=-lite
+    ;;
+--base)
+    ext=-base
+    ;;
+'')
+    ext=''
+    ;;
+*)
+    echo "${0}: bad option $1" >&2
+    exit 1
+    ;;
+esac
+
+show_notes(){
+    x-www-browser "$releasenotes_url"
+}
+
+toggle_compositor(){
+    if pgrep -x -u "$USER" "picom|compton" >/dev/null
+    then
+        bl-compositor --stop
+    else
+    bl-compositor --start
+    fi
+}
+
+export releasenotes_url welcomemsg_path ext
+export -f show_notes toggle_compositor
+
+yad --button=gtk-ok --button="Show Release Notes:bash -c show_notes" --button="Toggle Compositor:bash -c toggle_compositor" --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(<${welcomemsg_path}/welcome-live${ext}.txt)"
