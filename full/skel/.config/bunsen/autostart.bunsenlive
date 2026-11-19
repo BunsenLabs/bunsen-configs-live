@@ -102,7 +102,8 @@ openbox)
 
     ## Composition
     ## NOTE: composition must be started before tint2
-    bl-compositor --start
+    # composition off by default in live session
+    #bl-compositor --start
 
     ## Start the Conky session (the default conkyrc will run if no sessions have been set)
     bl-conky-session &
@@ -147,7 +148,8 @@ xfce4-power-manager &
 #pnmixer &
 
 ## Start Clipboard manager
-xfce4-clipman &
+## now using xfce4-clipman-plugin
+#xfce4-clipman &
 
 ## Start Thunar Daemon, if set as bl-file-manager
 if [ "$(readlink -f "$(which bl-file-manager)")" = "$(which thunar)" ]
@@ -156,14 +158,7 @@ then
 fi
 
 # Message for live system users
-(
-    sleep 5
-    bash -c 'show_notes(){ x-www-browser "https://forums.bunsenlabs.org/viewtopic.php?id=9675";}
-        export -f show_notes
-        yad  --button=gtk-ok --button="Show Release Notes:bash -c show_notes" --button="Stop Compositor:bash -c \"bl-compositor --stop\"" --center --undecorated --fixed --borders=30 --window-icon=distributor-logo-bunsenlabs --title="Welcome to BunsenLabs Live!" --text="$(</usr/share/bunsen/docs/welcome-live.txt)"
-        unset -f show_notes
-    '
-) &
+(sleep 5; live-welcome-popup) &
 
 ## bl-fortune - have the system come up with a little adage
 ## These quotes are from the #! and BL forums.
