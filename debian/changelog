@@ -1,3 +1,10 @@
+bunsen-configs-live (13.4.1-1) carbon; urgency=medium
+
+  * Replace "Stop Compositor" button with "Toggle Compositor".
+  * Refactor popup message code.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 27 Nov 2026 16:07:46 +0900
+
 bunsen-configs-live (13.4-1) carbon; urgency=medium
 
   * Welcome popups: remove non-clickable link, add button to open in browser
