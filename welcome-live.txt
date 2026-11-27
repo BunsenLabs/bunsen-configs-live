@@ -22,7 +22,7 @@ To install Bunsenlabs, please reboot this ISO and use: 'Start installer'
 or choose 'Advanced install' for further control.
 
 NOTE any desktop instability might be due to the current compositor Picom
-needing 3D acceleration. Try clicking "Stop Compositor"
+needing 3D acceleration. Try clicking "Toggle Compositor"
 and check the Release Notes for more information.
 
                         Thank you for trying <b>BunsenLabs Linux</b>!
